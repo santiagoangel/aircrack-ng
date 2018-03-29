@@ -220,6 +220,16 @@ to your choosing:
     env CC=gcc5 CXX=g++5 ./configure
     gmake
     ```
+## Mac OS X
+
+   ```
+   brew install autoconf automake libtool pkgconfig sqlite3 git python
+   env NOCONFIGURE=1 ./autogen.sh
+   /configure --with-xcode
+   make
+   make check
+   ```
+
 
 # Packaging
 
